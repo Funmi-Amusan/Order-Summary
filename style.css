@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+}
+
+h2,
+h5 {
+    color : hsl(223, 58%, 37%);
+}
+
+.container {
+    background-color: white;
+    width: 25em;
+    margin: auto;
+    border-radius: 1em;
+}
+
+.container img {
+    width: 25em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 1em 2em;
+}
+
+.content h2 {
+    padding: 1em;
+}
+
+.content p {
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+}
+
+.plan {
+    display: flex;
+    padding: 2em;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.annual-img {
+    display: flex;
+}
+
+.annual {
+    margin-inline: 1em;
+}
+
+.plan img {
+    width: 2.5em;
+}
+
+.plan a {
+    color: hsl(245, 75%, 52%);
+}
+
+.plan a:hover {
+    text-decoration: none;
+}
+
+
+.proceed {
+    background-color: hsl(239, 85%, 50%);
+    border-radius: 7px;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 0.8em 5em;
+    margin: 1em;
+    box-shadow: 1px 21px 22px 3px rgba(0,0,0,0.19);
+    -webkit-box-shadow: 1px 21px 22px 3px rgba(0,0,0,0.19);
+    -moz-box-shadow: 1px 21px 22px 3px rgba(0,0,0,0.19);
+}
+
+.proceed:hover{
+    background-color: hsl(239, 85%, 74%);
+}
+
+button {
+    border: none;
+    background: none;
+    padding: 1em;
+}
+
+button:hover {
+    font-weight: bolder;
+}
+
+p {
+    font-weight: 100;
+    
+}
+
+@media screen and (max-width: 375px) {
+    /* for mobile phones */
+
+    body {
+        font-size: 12px;
+    }
+}
