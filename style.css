@@ -112,6 +112,11 @@ p {
 
 @media screen and (max-width: 375px) {
     /* for mobile phones */
-
+     body {
+        font-size: 12px;
+    }
+    
+    .proceed {
+        font-size: 10px;
   
 }
